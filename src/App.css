@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918&family=Rokkitt:wght@100;300&display=swap");
+
+body {
+  background: url("https://amindi.ge/static/img/bg/clouds2.jpg");
+  background-size: 400% 400%;
+}
+
+#div {
+  background: linear-gradient(90deg, rgb(59, 7, 42), rgb(15, 15, 56));
+  color: white;
+  align-items: center;
+  width: 70%;
+  min-width: 700px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  border: 3px solid violet;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: "Brygada 1918", serif;
+}
+#inputDiv {
+  display: block;
+  text-align: center;
+}
+.input {
+  margin-right: 10px;
+  padding: 5px;
+}
+#filteredDiv {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 300px;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 10px;
+  color: white;
+  background: linear-gradient(
+    55deg,
+    rgb(49, 8, 8),
+    rgb(8, 17, 90),
+    rgb(94, 7, 55)
+  );
+}
+#filteredLiDiv {
+  width: 200px;
+  color: white;
+}
+#filteredButton {
+  color: rgb(0, 0, 0);
+}
+.input {
+  border: 50px;
+}
+.elem1 {
+  padding-top: 7%;
+  padding: 5%;
+}
+
+.elem2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: violet;
+  padding: 15px;
+  margin: 10px;
+}
+
+.elem3 {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  border-color: violet;
+  padding: 15px;
+
+  margin: 10px;
+}
+.elem4 {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  border-color: violet;
+  padding: 15px;
+
+  margin: 10px;
+}
+.bool1Div {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.header {
+  font-size: 20px;
+}
+
+#img {
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.bool1Div1 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
